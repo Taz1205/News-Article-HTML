@@ -27,13 +27,13 @@ Accessibility is not an afterthought but a key part of the design and developmen
 
 ### The Task
 
-For this task, you will be given a set of User Specifications/Business Requirements. 
-👉 Your job is to build an HTML page following these user specifications/business requirements using Semantic HTML . The specifications are deliberately vague - it’s your job to identify which HTML elements would be the most appropriate to use! 
+For this task, you will be given a set of User Specifications/Business Requirements.
+👉 Your job is to build an HTML page following these user specifications/business requirements using Semantic HTML . The specifications are deliberately vague - it’s your job to identify which HTML elements would be the most appropriate to use!
 👉 The submission we are looking for is just an .html file in a GitHub repository
 
 #### Use of all correct semantic HTML
 
-Correct usage of Semantic HTML - I have used section tags where possible instead of div I have tested this code using the W3C MarkUp Validator https://validator.w3.org/#validate_by_input. I could navigate this page without using a mouse. I have used alt tags, as they provide description to the relevant images when using screen readers. I have used external CSS style sheets to make my page more accessible like using colour contrast, larger font size, bold etc.
+Correct usage of Semantic HTML - I have used section tags where possible instead of div I have tested this code using the W3C MarkUp Validator <https://validator.w3.org/#validate_by_input>. I could navigate this page without using a mouse. I have used alt tags, as they provide description to the relevant images when using screen readers. I have used external CSS style sheets to make my page more accessible like using colour contrast, larger font size, bold etc.
 
 ##### CSS examples for accessibility
 

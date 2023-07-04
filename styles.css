@@ -1,83 +1,82 @@
 body {
-    background-color: #ffffe0; /* light yellow background */
-    color: #000000; /* black text */
-    font-size: 18px; 
-    font-weight: bold; 
-    line-height: 1.5; 
+  background-color: #ffffe0; /* light yellow background */
+  color: #000000; /* black text */
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 .logo-title {
-    display: flex; /* align items in a row */
-    align-items: center; /* center items vertically */
-    gap: 10px; /* add a gap between the logo and the title */
+  display: flex; /* align items in a row */
+  align-items: center; /* center items vertically */
+  gap: 10px; /* add a gap between the logo and the title */
 }
 
 nav {
-    background-color: #000000; 
+  background-color: #000000;
 }
 
 nav ul {
-    list-style-type: none; /* removes bullet points */
-    margin: 0; /* removes default margin */
-    padding: 0; /* removes default padding */
-    display: flex; /* align items in a row */
-    justify-content: space-around; /* distribute items evenly */
+  list-style-type: none; /* removes bullet points */
+  margin: 0; /* removes default margin */
+  padding: 0; /* removes default padding */
+  display: flex; /* align items in a row */
+  justify-content: space-around; /* distribute items evenly */
 }
 
 nav a {
-    color: #ffffff; 
-    text-decoration: none; 
-    padding: 10px; 
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
 }
 img {
-    max-width: 200%;
-    max-height: 200%
-    
+  max-width: 200%;
+  max-height: 200%;
 }
 h2 {
-    color: #0000ff;
-    margin-right: 200px;
+  color: #0000ff;
+  margin-right: 200px;
 }
 h3 {
-    color: purple; 
-   
+  color: purple;
 }
 p {
-    margin-bottom: 1em; 
+  margin-bottom: 1em;
 }
 a {
-    color: #ff0000; 
-    text-decoration: none; 
+  color: #ff0000;
+  text-decoration: none;
 }
 
-a:hover, a:focus {
-    text-decoration: underline;
-    outline: 2px solid #0000ff; /* adds underline when link is hovered or focused */
+a:hover,
+a:focus {
+  text-decoration: underline;
+  outline: 2px solid #0000ff; 
 }
 
 section.scrollable-content {
-    overflow: auto; /* If the content overflows, show a scrollbar */
-    max-height: 300px; 
-    resize: vertical; /* Allow the user to resize the element vertically */
+  overflow: auto; 
+  max-height: 300px;
+  resize: vertical; 
 }
 button {
-    cursor: pointer; /* Changes the cursor to a pointer when hovering over a button */
+  cursor: pointer; 
 }
 
 .content {
-    display: flex;
-    justify-content: flex-start; /* Positions the text and the image on opposite ends of the container */
+  display: flex;
+  justify-content: flex-start; 
 }
 
 .image-container img {
-    margin-left: 20px; /* Adjust the value as needed */
-    max-width: 100%; /* Ensures the image doesn't overflow the container */
+  margin-left: 20px; 
+  max-width: 100%; 
 }
 ul {
-    list-style-type: none; /* removes default bullet points */
-    padding: 0; /* removes default padding */
+  list-style-type: none; 
+  padding: 0; 
 }
 
 ul li {
-    margin-bottom: 10px; /* adds some space between list items */
+  margin-bottom: 10px; 
 }
