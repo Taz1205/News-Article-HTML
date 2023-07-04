@@ -1,7 +1,7 @@
 body {
   background-color: #ffffe0; /* light yellow background */
   color: #000000; /* black text */
-  font-size: 18px;
+  font-size: 1.125rem; /* 18px */
   font-weight: bold;
   line-height: 1.5;
 }
@@ -9,7 +9,7 @@ body {
 .logo-title {
   display: flex; /* align items in a row */
   align-items: center; /* center items vertically */
-  gap: 10px; /* add a gap between the logo and the title */
+  gap: 0.625rem; /* 10px */
 }
 
 nav {
@@ -27,22 +27,27 @@ nav ul {
 nav a {
   color: #ffffff;
   text-decoration: none;
-  padding: 10px;
+  padding: 0.625rem; /* 10px */
 }
+
 img {
   max-width: 200%;
   max-height: 200%;
 }
+
 h2 {
   color: #0000ff;
-  margin-right: 200px;
+  margin-right: 12.5rem; /* 200px */
 }
+
 h3 {
   color: purple;
 }
+
 p {
   margin-bottom: 1em;
 }
+
 a {
   color: #ff0000;
   text-decoration: none;
@@ -51,14 +56,15 @@ a {
 a:hover,
 a:focus {
   text-decoration: underline;
-  outline: 2px solid #0000ff; 
+  outline: 0.125rem solid #0000ff; /* 2px */
 }
 
 section.scrollable-content {
   overflow: auto; 
-  max-height: 300px;
+  max-height: 18.75rem; /* 300px */
   resize: vertical; 
 }
+
 button {
   cursor: pointer; 
 }
@@ -69,14 +75,15 @@ button {
 }
 
 .image-container img {
-  margin-left: 20px; 
+  margin-left: 1.25rem; /* 20px */
   max-width: 100%; 
 }
+
 ul {
   list-style-type: none; 
   padding: 0; 
 }
 
 ul li {
-  margin-bottom: 10px; 
-}
+  margin-bottom: 0.625rem; /* 10px */
+} 
