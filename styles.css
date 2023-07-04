@@ -1,8 +1,9 @@
 body {
     background-color: #ffffe0; /* light yellow background */
     color: #000000; /* black text */
-    font-size: 18px; /* sets font size to 18px */
-    font-weight: bold; /* makes font bold */
+    font-size: 18px; 
+    font-weight: bold; 
+    line-height: 1.5; 
 }
 
 .logo-title {
@@ -12,7 +13,7 @@ body {
 }
 
 nav {
-    background-color: #000000; /* black background */
+    background-color: #000000; 
 }
 
 nav ul {
@@ -24,7 +25,59 @@ nav ul {
 }
 
 nav a {
-    color: #ffffff; /* white text */
-    text-decoration: none; /* remove underline */
-    padding: 10px; /* add some space around links */
+    color: #ffffff; 
+    text-decoration: none; 
+    padding: 10px; 
+}
+img {
+    max-width: 200%;
+    max-height: 200%
+    
+}
+h2 {
+    color: #0000ff;
+    margin-right: 200px;
+}
+h3 {
+    color: purple; 
+   
+}
+p {
+    margin-bottom: 1em; 
+}
+a {
+    color: #ff0000; 
+    text-decoration: none; 
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    outline: 2px solid #0000ff; /* adds underline when link is hovered or focused */
+}
+
+section.scrollable-content {
+    overflow: auto; /* If the content overflows, show a scrollbar */
+    max-height: 300px; 
+    resize: vertical; /* Allow the user to resize the element vertically */
+}
+button {
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over a button */
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start; /* Positions the text and the image on opposite ends of the container */
+}
+
+.image-container img {
+    margin-left: 20px; /* Adjust the value as needed */
+    max-width: 100%; /* Ensures the image doesn't overflow the container */
+}
+ul {
+    list-style-type: none; /* removes default bullet points */
+    padding: 0; /* removes default padding */
+}
+
+ul li {
+    margin-bottom: 10px; /* adds some space between list items */
 }
