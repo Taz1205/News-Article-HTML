@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.commandsToSkipShell": [
+        "{     \"editor.formatOnSave\": true,     \"[html]\": {         \"editor.defaultFormatter\": \"vscode.html-language-features\"     } }"
+    ]
+}
