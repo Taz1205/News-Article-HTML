@@ -46,3 +46,17 @@ Use clear typography: Choose fonts that are easy to read and set them to an appr
 Use space effectively: Adding space around your elements can make your webpage easier to read and navigate. This can include margins around blocks of text and padding inside elements.
 
 Highlight links: Make sure links are clearly distinguishable from the rest of the text. You can style links using the a selector and the :hover and :focus pseudo-classes to change the appearance of links when they're hovered over or receive keyboard focus.
+
+###### To write a simple HTTP request to serve static files such as your HTML and CSS files, you can use the built-in express.static middleware function
+
+I chose to add an app.js file that uses built-in express.static middleware function to create my web page  - <http://localhost:3000/techreturners_news_article.html> to run on my local host. If you haven't done so already, you will need to install Node.js and Express. First, download and install Node.js from the official website. Express is a popular framework for building web applications in Node.js.
+You need to install dependencies with:
+
+- ‘npm I express’
+
+In this code, express.static(path.join(__dirname, '.')) is serving the static files (like your HTML and CSS files) in the directory where app.js is located.
+
+- run ‘node app.js’  
+
+and click to go live in vsCode and on your web browser as well. You can test this on softwares like Postman to see if it works and gives a success status code of 200.  
+I checked out the lighthouse feature from the web browser's inspect functionality and this web page showed accessibility of 96%! YAY!!!! PHEW!!!
